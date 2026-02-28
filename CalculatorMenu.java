@@ -7,8 +7,8 @@ public class CalculatorMenu{
         int choice = sc.nextInt();
         System.out.print("Enter first number: ");
         double n1 = sc.nextDouble();
-	System.out.print("Enter second number: ");
-	double n2 = sc.nextDouble();
+	    System.out.print("Enter second number: ");
+	    double n2 = sc.nextDouble();
         switch (choice){
             case 1: System.out.println("Result: " + (n1 + n2)); break;
             case 2: System.out.println("Result: " + (n1 - n2)); break;
@@ -24,4 +24,5 @@ public class CalculatorMenu{
             default: System.out.println("Invalid choice");
             }
     }
+
 }
